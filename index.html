@@ -5,13 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Score Keeper</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div>
-    <img src="" alt="">
+    <img
+      src="https://images.unsplash.com/photo-1584813539806-2538b8d918c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80"
+      alt="Ping Pong paddle and ball resting on table.">
   </div>
-  section
+
+  <section id="heading">
+    <h2>Ping Pong Score Keeper</h2>
+  </section>
+
+  <section id="scoreSection">
+    <h1><b>0 to 0</b></h1>
+    <p>Use the buttons below to keep score</p>
+    <label for="score">Playing To</label>
+    <input type="number" name="score" id="score" min="3" max="11">
+  </section>
+
+  <section id="buttonSection">
+    <button id="playerOneBtn">+1 Player One</button>
+    <button id="playerTwoBtn">+1 Player Two</button>
+    <button id="resetBtn">Reset</button>
+  </section>
+
+  <script src="app.js"></script>
 </body>
 
 </html>
