@@ -81,4 +81,10 @@
   border: 1px solid white;
 }
 
+.winner {
+  color: green;
+}
 
+.loser {
+  color: red;
+}
